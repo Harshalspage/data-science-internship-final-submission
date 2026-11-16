@@ -1,0 +1,50 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+social-media-venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Testing and development
+.pytest_cache/
+.vscode/
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.tmp
+*.log
+*.backup
+*_backup.py
+
+# Raw data
+data/raw/*
+!data/raw/.gitkeep
+
+# Large model artifacts
+models/*.pt
+models/*.pth
+models/*.bin
+models/*.safetensors
+
+# LIAR dataset and derived training splits
+data/sample/liar_dataset/
+data/processed/misinformation_train.csv
+data/processed/misinformation_valid.csv
+data/processed/misinformation_test.csv
+reports/evaluation/misinformation_test_predictions.csv
+
+# Private original network data
+.private_originals/
+models/misinformation_classifier.joblib

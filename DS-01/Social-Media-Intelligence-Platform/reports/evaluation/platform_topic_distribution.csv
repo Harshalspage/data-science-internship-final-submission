@@ -1,0 +1,10 @@
+platform,topic_id,record_count
+hacker_news,-1,2
+hacker_news,0,2
+hacker_news,3,44
+hacker_news,4,33
+reddit,-1,1
+reddit,3,2
+youtube,0,10
+youtube,1,10
+youtube,2,10

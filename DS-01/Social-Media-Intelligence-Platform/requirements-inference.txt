@@ -1,0 +1,3 @@
+# Optional dependencies for transformer-based sentiment inference
+transformers
+torch

@@ -1,0 +1,9 @@
+platform,sentiment,record_count,percentage
+hacker_news,negative,15,18.52
+hacker_news,neutral,40,49.38
+hacker_news,positive,26,32.1
+reddit,negative,2,66.67
+reddit,positive,1,33.33
+youtube,negative,3,10.0
+youtube,neutral,21,70.0
+youtube,positive,6,20.0

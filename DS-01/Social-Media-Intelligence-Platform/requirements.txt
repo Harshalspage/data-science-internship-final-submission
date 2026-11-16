@@ -1,0 +1,19 @@
+# Dashboard and data processing
+streamlit==1.67.0
+pandas==3.1.1
+numpy==2.5.4
+plotly==7.1.0
+scikit-learn==1.9.1
+
+# Graph analytics and visualization
+networkx==3.7
+matplotlib==3.11.2
+
+# API integration and environment configuration
+requests==2.34.2
+python-dotenv==1.2.4
+google-api-python-client>=2.0,<3.0
+
+# Model persistence and testing
+joblib==1.6.0
+pytest==9.2.0

@@ -1,0 +1,25 @@
+# Secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/*.key
+**/*.pem
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/.venv/
+**/venv/
+
+# Private and individual-level data
+**/.private_originals/
+**/*with_ids*.csv
+**/customer_churn_risk.csv
+**/test_predictions.csv
+**/telco_churn_scoring_data.csv
+**/telco_churn_features.csv
+
+# Editors and operating systems
+**/.vscode/
+**/.DS_Store
+**/Thumbs.db
